@@ -4,26 +4,165 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Geometric Figures Info"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"/>
 
     <TextView
         android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="16sp"
-        android:layout_gravity="center_horizontal"
+        android:text="Total areas: "
+        android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
+
+    <!-- Circle Parameters -->
+    <TextView
+        android:id="@+id/circleTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/circleColorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Red"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/circleRadiusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radius: 5.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Separator Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Rectangle Parameters -->
+    <TextView
+        android:id="@+id/rectangleTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rectangle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rectangleColorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Blue"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rectangleWidthTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Width: 4.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rectangleHeightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height: 6.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Separator Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Triangle Parameters -->
+    <TextView
+        android:id="@+id/triangleTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triangle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/triangleColorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: Green"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/triangleSide1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side1: 3.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/triangleSide2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side2: 4.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/triangleSide3TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side3: 5.0"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
 
 </LinearLayout>
