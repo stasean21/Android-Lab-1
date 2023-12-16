@@ -10,7 +10,7 @@ class TriangleTest {
         val triangle = Triangle("Green", 3.0, 4.0, 5.0)
         assertEquals(6.0, triangle.area(), 0.01)
     }
-
+//
     @Test
     fun testTrianglePerimeter() {
         val triangle = Triangle("Green", 3.0, 4.0, 5.0)

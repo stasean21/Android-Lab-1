@@ -10,7 +10,7 @@ class RectangleTest {
         val rectangle = Rectangle("Blue", 4.0, 6.0)
         assertEquals(24.0, rectangle.area(), 0.01)
     }
-
+//
     @Test
     fun testRectanglePerimeter() {
         val rectangle = Rectangle("Blue", 4.0, 6.0)
